@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Profesional - U.E Eduardo Blanco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <!-- Espacio para el Logo -->
+        <div class="logo-container">
+            <img src="Logo RGB (2).jpg" alt="Logo Eduardo Blanco" id="schoolLogo">
+        </div>
+        <h1>Perfil Profesional Estudiantil</h1>
+        <p>U.E. Colegio Eduardo Blanco</p>
+    </header>
+
+    <main class="container">
+        
+        <!-- Sección de Introducción Personal -->
+        <section class="card profile-main">
+            <h2 id="nombre">Victoria Garcia</h2>
+            <p id="descripcion" class="intro-text">soy una persona responsable y creativa apasionada por el arte y la moda
+            <hr>
+            <p><strong>Meta Profesional: </strong> <span id="userGoal">Graduarme de 5 to Año y estudiar la Carrera que me apasiona y ser exitosa en la vida</span></p>
+        </section>
+
+        <!-- Análisis FODA (4 Tarjetas) -->
+        <section class="foda-grid">
+            <div class="card foda-item fortaleza">
+                <h3><i class="icon">F</i> Fortalezas: Responsable y Apasionada</h3>
+                <ul id="lista de Fortalezas"></ul>
+            </div>
+            <div class="card foda-item oportunidad">
+                <h3><i class="icon">O</i> Oportunidades:Tengo conocimientos de los temas</h3>
+                <ul id="lista de portunidades"></ul>
+            </div>
+            <div class="card foda-item debilidad">
+                <h3><i class="icon">D</i> Debilidades: Perfecionista e Impaciente</h3>
+                <ul id="lista de Debilidades"></ul>
+            </div>
+            <div class="card foda-item amenaza">
+                <h3><i class="icon">A</i> Amenazas: alta competencia laboral</h3>
+                <ul id="lista de Amenazas"></ul>
+            </div>
+        </section>
+
+        <!-- Aspiraciones Universitarias -->
+        <section class="card university-section">
+            <h3>Universidades de Interés: Instituto de Diseño de Caracas o La Universidad Catolica Andres Bello
+            </h3>
+            <div id="uniContainer" class="uni-grid">
+                <!-- Se llenará con JS -->
+            </div>
+        </section>
+        
+        <div class="actions">
+            <button id="btnActualizar">Cargar Perfil Profesional</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
